@@ -4,7 +4,7 @@ import {minifyHtml, injectHtml} from 'vite-plugin-html'
 const scalaVersion = '3.0.1'
 
 export default ({mode}) => {
-    const mainJS = `./target/scala-${scalaVersion}/laminar-hello-${mode === 'production' ? 'opt' : 'fastopt'}/main.js`
+    const mainJS = `./target/scala-${scalaVersion}/laminar-hello-${mode === 'production' ? 'opt' : 'fastopt'}$/main.js`
     const script = `<script type="module" src="${mainJS}"></script>`
 
     return {
