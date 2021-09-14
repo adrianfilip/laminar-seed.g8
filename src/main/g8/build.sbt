@@ -6,8 +6,8 @@ val laminarVersion = "0.13.1"
 
 scalaVersion := "2.13.6"
 
-lazy val root = project
-  .in(file("."))
+lazy val hello = project
+  .in(file("hello"))
   .enablePlugins(ScalaJSPlugin)
   .settings(
     scalaJSLinkerConfig ~= { _.withModuleKind(ModuleKind.ESModule) },
