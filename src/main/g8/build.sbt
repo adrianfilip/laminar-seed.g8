@@ -4,7 +4,7 @@ version := "0.1"
 
 val laminarVersion = "0.13.1"
 
-scalaVersion := "3.0.1"
+scalaVersion := "2.13.6"
 
 lazy val root = project
   .in(file("."))
