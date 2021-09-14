@@ -1,6 +1,6 @@
 package com.filip.laminar.hello
 
-import com.raquo.laminar.api.L.*
+import com.raquo.laminar.api.L._
 import org.scalajs.dom
 
 import scala.scalajs.js
